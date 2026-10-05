@@ -1,0 +1,30 @@
+SNAPSHOT APP SERVIZIO
+Schema: telefono_azzurro_servizio_dashboard_v1
+Versione schema: 1
+Servizio: 19696
+Settimana: S05
+ISO: 23
+Periodo: 01/06/2026 - 07/06/2026
+Regola periodo: lunedi-domenica
+Creato il: 05/10/2026 09:56:54
+File RDS: dashboard_19696_S05_20260601_20260607.rds
+Dimensione RDS (byte): 38942
+
+PERIMETRO
+- Servizio unico nello snapshot: 19696
+- Nessun dato 114 o 114 Multilingua e' incluso nello snapshot.
+- 116000 escluso.
+- Operatori mappati presenti nella tabella settimanale: 10
+- Progressivi con almeno un dato mancante: 96
+
+CONTENUTO
+- KPI: kpi_giornalieri_canale_servizio, kpi_settimanali_canale_servizio, kpi_giornalieri_servizio, kpi_settimanali_servizio, kpi_giornalieri_gruppo, kpi_settimanali_gruppo, kpi_giornalieri_canale, kpi_settimanali_canale, chiamate_entranti_fascia_giorno, chiamate_entranti_fascia_giorno_servizio, contatti_fascia_giorno_canale_servizio, contatti_fascia_giorno_canale, contatti_fascia_giorno_canale_servizio_pct, contatti_fascia_giorno_canale_pct, contatti_fascia_settimana_canale_servizio, contatti_fascia_settimana_canale_servizio_pct, contatti_fascia_settimana_canale_servizio_wide, contatti_fascia_settimana_canale, contatti_fascia_settimana_canale_pct
+- CRM: tabelle aggregate del servizio selezionato.
+- Operatori: attivita' log + analisi CRM del servizio.
+- Qualita': completezza CRM operativa + controlli KPI del servizio.
+
+PRIVACY / PERIMETRO
+- Nessun dataset CRM case-level/contact-level e' incluso nello snapshot.
+- I valori originali dei campi CRM non sono inclusi.
+- La sezione completezza include i progressivi con dati mancanti: uso interno riservato.
+- Le analisi per operatore non costituiscono una graduatoria individuale.
